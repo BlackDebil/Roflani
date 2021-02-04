@@ -11,11 +11,7 @@ window.addEventListener('load', function () {
 	  img.src = "leus.jpg";
 	  img.style.align = "center";
 	  alert("ALARM! ALARM! CREATE LEUS!");
-	  document.body.appendChild(img)
-	  
-function generateColor() { 
-  document.body.style.backgroundColor = '#'+Math.floor(Math.random()*16777215).toString(16);
-};
+	  document.body.appendChild(img)	
 	
 let timerId = setInterval(() =>  { 
   document.body.style.backgroundColor = '#'+Math.floor(Math.random()*16777215).toString(16);
