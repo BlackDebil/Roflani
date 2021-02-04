@@ -16,13 +16,15 @@ window.addEventListener('load', function () {
 function generateColor() { 
   document.body.style.backgroundColor = '#'+Math.floor(Math.random()*16777215).toString(16);
 };
+	
+let timerId = setInterval(() =>  { 
+  document.body.style.backgroundColor = '#'+Math.floor(Math.random()*16777215).toString(16);
+}, 1);
 
-setInterval( generateColor(), 500);
-	  
 	  img.animate([
 	  { transform: 'rotate(360deg)'}
 	  ],{
-		duration: 1000,
+		duration: 1,
 		iterations: Infinity
 	  });
 	  
