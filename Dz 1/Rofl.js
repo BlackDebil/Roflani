@@ -11,6 +11,7 @@ window.addEventListener('load', function () {
 		
 		but1.style.display = "none";
 		but2.style.display = "none";
+		
 	  let img = document.createElement("img")
 	  img.src = "leus.jpg";
 	  img.style.align = "center";
