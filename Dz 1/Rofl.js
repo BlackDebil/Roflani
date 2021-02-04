@@ -24,7 +24,7 @@ setInterval(() =>  {
 	  img.animate([
 	  { transform: 'rotate(360deg)'}
 	  ],{
-		duration: 500,
+		duration: 1000,
 		iterations: Infinity
 	  });
 	  
