@@ -7,7 +7,7 @@ window.addEventListener('load', function () {
     but2.addEventListener('click', function(){
 		var audio = new Audio(); 
 	 audio.src = 'mocart.mp3'; 
-	 audio.autoplay = true; 
+	 audio.autoplay = true;
 		
 		but1.style.display = "none";
 		but2.style.display = "none";
@@ -24,10 +24,13 @@ setInterval(() =>  {
 
 	  img.animate([
 	  { transform: 'rotate(360deg)'}
+	  
 	  ],{
 		duration: 1000,
 		iterations: Infinity
 	  });
+	  
+	  
 	  
     });
 });
